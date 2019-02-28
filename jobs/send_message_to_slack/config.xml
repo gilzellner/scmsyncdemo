@@ -49,7 +49,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>curl -X POST --data-urlencode &quot;payload={\&quot;channel\&quot;: \&quot;$CHANNEL\&quot;, \&quot;username\&quot;: \&quot;$USERNAME\&quot;, \&quot;text\&quot;: \&quot;$TEXT\&quot;, \&quot;icon_emoji\&quot;: \&quot;:ghost:\&quot;}&quot; https://hooks.slack.com/services/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</command>
+      <command>curl -X POST --data-urlencode &quot;payload={\&quot;channel\&quot;: \&quot;$CHANNEL\&quot;, \&quot;username\&quot;: \&quot;$USERNAME\&quot;, \&quot;text\&quot;: \&quot;$TEXT\&quot;, \&quot;icon_emoji\&quot;: \&quot;$ICONEMOJI\&quot;}&quot; https://hooks.slack.com/services/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</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>
