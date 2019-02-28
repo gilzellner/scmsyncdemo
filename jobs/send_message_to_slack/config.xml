@@ -30,6 +30,12 @@
           <defaultValue>This is posted to #winter_2019 and comes from a bot named webhookbot</defaultValue>
           <trim>false</trim>
         </hudson.model.StringParameterDefinition>
+        <hudson.model.StringParameterDefinition>
+          <name>ICONEMOJI</name>
+          <description></description>
+          <defaultValue>:ghost:</defaultValue>
+          <trim>false</trim>
+        </hudson.model.StringParameterDefinition>
       </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
     <hudson.plugins.throttleconcurrents.ThrottleJobProperty plugin="throttle-concurrents@2.0.1">
